@@ -9,43 +9,48 @@
 </head>
 <body>
 	<div id="wrapper">
-		<div id="soluzione"></div>
+		<div id="soluzione">0</div>
 	<div class="calcolatrice">
 		<div class="righe">
-			<div class="numero"><p>(</p></div>
-			<div class="numero"><p>)</p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
+			<div class="numero"><p>C</p></div>
+			<div id="(" class="numero" data-value="(" onClick="n(this.id)"><p>(</p></div>
+			<div id=")" class="numero" value=")"><p>)</p></div>
+			<div class="numero"><p>&radic;</p></div>
+			
 		</div>
 		<div class="righe">
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
+			<div id="7" class="numero" value="7" onClick="n(this.id)"><p>7</p></div>
+			<div id="4" class="numero" value="4" onClick="n(this.id)"><p>4</p></div>
+			<div id="1" class="numero" value="1" onClick="n(this.id)"><p>1</p></div>
+			<div id="0" class="numero" value="0" onClick="n(this.id)"><p>0</p></div>
 		</div>
 		<div class="righe">
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
+			<div id="8" class="numero" value="8" onClick="n(this.id)"><p>8</p></div>
+			<div id="5" class="numero" value="5" onClick="n(this.id)"><p>5</p></div>
+			<div id="2" class="numero" value="2" onClick="n(this.id)"><p>2</p></div>
+			<div id="." class="numero" value="." onClick="n(this.id)"><p>.</p></div>
 		</div>
 			<div class="righe">
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
+			<div id="9" class="numero" value="9" onClick="n(this.id)"><p>9</p></div>
+			<div id="6" class="numero" value="6" onClick="n(this.id)"><p>6</p></div>
+			<div id="3" class="numero" value="3" onClick="n(this.id)"><p>3</p></div>
+			<div class="numero"><p>=</p></div>
 		</div>
 	<div class="righe">
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
-			<div class="numero"><p></p></div>
+			<div id="/" class="numero" value="/" onClick="n(this.id)"><p>/</p></div>
+			<div id="*" class="numero" value="*" onClick="n(this.id)"><p>x</p></div>
+			<div id="-" class="numero" value="-" onClick="n(this.id)"><p>-</p></div>
+			<div id="+" class="numero" value="+" onClick="n(this.id)"><p>+</p></div>
 		</div>
 
 	</div>
 	
 	
-</div>	
+</div>
+
+
+
+<script type="text/javascript" src="script.js"></script>	
 
 </body>
 </html>
